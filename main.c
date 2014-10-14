@@ -6,7 +6,7 @@
  */
 
 #include <pic.h>
-//#include "thermo.h"
+#include "thermo.h"
 
 //#define _XTAL_FREQ 19660800
 #define _XTAL_FREQ 20000000
@@ -66,8 +66,6 @@ const unsigned char digisel[] = {
     0b01000000,
     0b10000000
 };
-
-unsigned int ftot(unsigned int freq); /*???? */
 
 void interrupt entry(){
     unsigned char s;
