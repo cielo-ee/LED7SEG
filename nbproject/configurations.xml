@@ -14,6 +14,7 @@
                    projectFiles="true">
       <itemPath>main.c</itemPath>
       <itemPath>thermo.h</itemPath>
+      <itemPath>thermo.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"

@@ -12,7 +12,7 @@
 extern "C" {
 #endif
 
-unsigned int ftot(unsigned int freq); 
+int ftot(unsigned int freq); 
 
 
 #ifdef	__cplusplus
